@@ -1,4 +1,4 @@
-FROM python:3.8.5-buster
+FROM python:3.11.0a6-buster
 
 # docker build --build-arg SHIFTLEFT_ACCESS_TOKEN=$SHIFTLEFT_ACCESS_TOKEN
 ARG SHIFTLEFT_ACCESS_TOKEN
